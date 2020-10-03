@@ -10,3 +10,11 @@ describe("getStringOriginal", () => {
     expect(expectedData).toEqual(stringXsl);
   });
 });
+
+describe("getStringOriginal", () => {
+  it("Return a processed a original string format BASE64", async () => {
+    const stringXsl = await getStringOriginal(xmlStringBase64, true);
+
+    expect(expectedData).toEqual(stringXsl);
+  });
+});
