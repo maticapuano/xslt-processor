@@ -1,1 +1,1 @@
-console.log("Hello word");
+export * from "./getOriginalString";
